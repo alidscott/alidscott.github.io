@@ -18,7 +18,7 @@ export default function Home() {
           <div className="gif">
           <AnimatedGif src={'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTZuODR5d3EwcndhMXZjY2pibXMyZDZqaGRuODZxbnA3cDM3bDl6cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Z4VgRScq1oDfw5qNh3/giphy.gif'} alt={"bunny couple "} />
           </div>
-          <h5 className="header"> Now close your eyes & DON'T PEAK!!</h5>
+          <h5 className="header"> Now close your eyes & DO NOT PEAK!!</h5>
          
         </> :
         <>
