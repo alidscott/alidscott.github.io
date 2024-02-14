@@ -18,7 +18,7 @@ export default function Home() {
           <div className="gif">
           <AnimatedGif src={'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTZuODR5d3EwcndhMXZjY2pibXMyZDZqaGRuODZxbnA3cDM3bDl6cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Z4VgRScq1oDfw5qNh3/giphy.gif'} alt={"bunny couple "} />
           </div>
-          <h5 className="header"> Now close your eyes & DO NOT PEAK!!</h5>
+          <h5 className="header"> Now close your eyes</h5>
          
         </> :
         <>
@@ -40,18 +40,3 @@ export default function Home() {
     </main>
   );
 }
-
-// {yes ?
-//   <>
-//    <AnimatedGif src={'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTZuODR5d3EwcndhMXZjY2pibXMyZDZqaGRuODZxbnA3cDM3bDl6cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Z4VgRScq1oDfw5qNh3/giphy.gif'} alt={"bunny couple "}/>
-//   </> :
-//   <>
-//     <div className="gif">
-//       <AnimatedGif src={'https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWlwNTFuemQ1ZzdjeWhyNXV6eHVkc3ZiaHI2czNzamJuZWlnYWZxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/wsl3kGqA9KqyZnVlDo/giphy.gif'} alt={"bunny"} />
-//     </div>
-//     <h5 className="header"> Would you be my Valentine?</h5>
-//     <div className='buttons'>
-//       <button className="btn" onClick={() => { setYes(true) }}>Yes </button>
-//       <button className="btn">No</button>
-//     </div>
-//   </>}
